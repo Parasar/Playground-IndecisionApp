@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+
+.custom-class {
+  display: inline-block;
+  font: bold 12em 'Gotham';
+  color: #999999;
+
+}
