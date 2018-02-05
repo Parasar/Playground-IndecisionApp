@@ -68,3 +68,5 @@ class Traveller extends Student {
 }
 
 export default Person;
+
+// Just a comment

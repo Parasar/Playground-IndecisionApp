@@ -87,3 +87,6 @@ class IndecisionApp extends Component {
 }
 
 export default IndecisionApp;
+
+
+// Just a comment
