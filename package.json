@@ -1,17 +1,27 @@
 {
-  "name": "parallax",
+  "name": "expensify",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "jest-cli": "^23.1.0",
+    "moment": "^2.22.1",
     "react": "^16.1.1",
+    "react-addons-shallow-compare": "^15.6.0",
+    "react-dates": "^12.7.0",
     "react-dom": "^16.1.1",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "4.2.2",
     "react-scripts": "1.0.17",
-    "react-scroll-parallax": "^1.1.1"
+    "react-scroll-parallax": "^1.1.1",
+    "react-test-renderer": "^16.4.1",
+    "redux": "^3.7.2",
+    "uuid": "^3.2.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "devDependencies": {}
 }

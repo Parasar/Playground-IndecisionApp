@@ -1,0 +1,26 @@
+* {
+  /* color:red; */
+
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+}
+
+.active-nav{
+  font-weight: bold;
+  color: rgba(0,140,0,0.8);
+  /* text-decoration: none; */
+}
+
+
+input, textarea {
+  border: 1px solid #888;
+  user-select: all;
+}
+
+button {
+  background: #222;
+  color:#fff;
+}

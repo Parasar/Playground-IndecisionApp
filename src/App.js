@@ -1,29 +1,35 @@
 import React, { Component } from 'react';
-// import logo from './logo.svg';
-import './App.css';
-import IndecisionApp from './Playground/IndecisionApp';
-// import Person from './Playground/ClassesPractice';
-// import ArrowFunctions from './Playground/ArrowFunctions';
-// import ParallaxContainer from './ParallaxContainer.js';
+// import {BrowserRouter, Route} from 'react-router-dom';
+
+
+import './styles/App.css';
+// import './styles/style.css';
+
+
+
+///////////////////////////
+// REDUX
+///////////////////////////
+
+// Multiple Redux files
+// -------------------
+// import store from './store/configStore.js';
+// import {addExpense} from './actions/expenses.js';
+// import {sortByDate, setTextFilter} from './actions/filters';
+// import getVisibleExpenses from './selectors/filterExpenses';
+
+
+///////////////////////////
+// PLAYGROUND
+///////////////////////////
+
 
 class App extends Component {
+
   render() {
 
     return (
       <div className="App">
-        {/*<header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-          Hello
-        </p>
-        */}
-
-        {/*<IndecisionApp />*/}
-        <IndecisionApp />
-
       </div>
     );
   }
